@@ -23,6 +23,12 @@ vim.schedule(function()
   vim.o.clipboard = 'unnamedplus'
 end)
 
+-- Set tab spacing to 4 spaces
+vim.opt.tabstop = 4 -- Number of spaces a tab character represents
+vim.opt.softtabstop = 4 -- Number of spaces inserted when pressing <Tab>
+vim.opt.shiftwidth = 4 -- Number of spaces for each indentation level
+vim.opt.expandtab = true -- Convert tabs to spaces
+
 -- Enable break indent
 vim.o.breakindent = true
 
